@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Gold trophy for the session-complete popup -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="96dp"
+    android:height="96dp"
+    android:viewportWidth="96"
+    android:viewportHeight="96">
+
+    <!-- Handles -->
+    <path
+        android:strokeColor="#E0A100"
+        android:strokeWidth="4"
+        android:pathData="M30,26 Q18,26 18,36 Q18,46 30,46 M66,26 Q78,26 78,36 Q78,46 66,46" />
+
+    <!-- Cup -->
+    <path
+        android:fillColor="#F5B700"
+        android:pathData="M30,20 L66,20 L66,44 Q66,62 48,62 Q30,62 30,44 Z" />
+
+    <!-- Shine on the cup -->
+    <path
+        android:fillColor="#FFF3B0"
+        android:pathData="M36,26 L40,26 L40,42 Q40,46 36,46 Z" />
+
+    <!-- Star on the cup -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M48,28 L50.4,33.2 L56,33.8 L51.8,37.6 L53,43.2 L48,40.4 L43,43.2 L44.2,37.6 L40,33.8 L45.6,33.2 Z" />
+
+    <!-- Stem -->
+    <path
+        android:fillColor="#E0A100"
+        android:pathData="M43,62 L53,62 L53,70 L43,70 Z" />
+
+    <!-- Base -->
+    <path
+        android:fillColor="#C98A00"
+        android:pathData="M32,70 L64,70 Q68,70 68,74 L68,80 L28,80 L28,74 Q28,70 32,70 Z" />
+</vector>

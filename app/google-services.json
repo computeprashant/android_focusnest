@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "863063807217",
+    "project_id": "focusnest-cfb9f",
+    "storage_bucket": "focusnest-cfb9f.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:863063807217:android:f3f3c959841e79766c4550",
+        "android_client_info": {
+          "package_name": "com.example.focusnest"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "863063807217-8tcs2v66omonottr1cj716vls33lf4ib.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.focusnest",
+            "certificate_hash": "f02447b55aeb382893b583b43afb0835848adb58"
+          }
+        },
+        {
+          "client_id": "863063807217-hkpe8qmhe5098qnm7die0tmpe9h16r3i.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBqa_zQMFT-2-fNfM1aE8fqmYyyiSWau9k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "863063807217-hkpe8qmhe5098qnm7die0tmpe9h16r3i.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

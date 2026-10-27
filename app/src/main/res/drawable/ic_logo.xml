@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Focus Nest logo: a wise owl in a graduation cap, perched on a branch.
+     Also used as the launcher icon foreground. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Branch -->
+    <path
+        android:fillColor="#8B5E3C"
+        android:pathData="M16,84 Q54,94 92,84 L92,89 Q54,99 16,89 Z" />
+    <!-- Leaf -->
+    <path
+        android:fillColor="#4CAF50"
+        android:pathData="M20,84 Q24,75 32,79 Q27,87 20,84 Z" />
+
+    <!-- Ear tufts -->
+    <path
+        android:fillColor="#B5752F"
+        android:pathData="M38,44 L35,30 L48,38 Z M70,44 L73,30 L60,38 Z" />
+
+    <!-- Body with a light outline so it stands out on dark and light themes -->
+    <path
+        android:fillColor="#C98A3E"
+        android:strokeColor="#FFF3E0"
+        android:strokeWidth="2"
+        android:pathData="M34,50 Q34,86 54,86 Q74,86 74,50 Q74,34 54,34 Q34,34 34,50 Z" />
+
+    <!-- Belly -->
+    <path
+        android:fillColor="#F3D9A4"
+        android:pathData="M42,72 Q54,68 66,72 Q66,84 54,84 Q42,84 42,72 Z" />
+    <!-- Belly feathers -->
+    <path
+        android:strokeColor="#C98A3E"
+        android:strokeWidth="1.4"
+        android:pathData="M46,77 Q50,80 54,77 M54,77 Q58,80 62,77" />
+
+    <!-- Wings -->
+    <path
+        android:fillColor="#A8672E"
+        android:pathData="M34,56 Q25,68 33,80 Q40,72 40,58 Z M74,56 Q83,68 75,80 Q68,72 68,58 Z" />
+
+    <!-- Eye whites -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:strokeColor="#3A2A1A"
+        android:strokeWidth="1.8"
+        android:pathData="M36.5,53 A8.5,8.5 0 1,0 53.5,53 A8.5,8.5 0 1,0 36.5,53 Z M54.5,53 A8.5,8.5 0 1,0 71.5,53 A8.5,8.5 0 1,0 54.5,53 Z" />
+    <!-- Pupils -->
+    <path
+        android:fillColor="#1C1F26"
+        android:pathData="M41.8,54 A4.2,4.2 0 1,0 50.2,54 A4.2,4.2 0 1,0 41.8,54 Z M59.8,54 A4.2,4.2 0 1,0 68.2,54 A4.2,4.2 0 1,0 59.8,54 Z" />
+    <!-- Eye highlights -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M48.8,52.5 A1.3,1.3 0 1,0 51.4,52.5 A1.3,1.3 0 1,0 48.8,52.5 Z M66.8,52.5 A1.3,1.3 0 1,0 69.4,52.5 A1.3,1.3 0 1,0 66.8,52.5 Z" />
+
+    <!-- Beak -->
+    <path
+        android:fillColor="#F5A623"
+        android:pathData="M52,60 L58,60 L55,66 Z" />
+
+    <!-- Graduation cap: band, board and tassel -->
+    <path
+        android:fillColor="#2F55B0"
+        android:pathData="M40,32 L68,32 L68,40 Q54,46 40,40 Z" />
+    <path
+        android:fillColor="#3B6FD8"
+        android:strokeColor="#2F55B0"
+        android:strokeWidth="1"
+        android:pathData="M54,12 L80,24 L54,36 L28,24 Z" />
+    <path
+        android:strokeColor="#5B8BEA"
+        android:strokeWidth="1.2"
+        android:pathData="M54,18 L72,25" />
+    <path
+        android:strokeColor="#FFC94D"
+        android:strokeWidth="1.6"
+        android:pathData="M77,25 L77,38" />
+    <path
+        android:fillColor="#FFC94D"
+        android:pathData="M74.4,40 A2.6,2.6 0 1,0 79.6,40 A2.6,2.6 0 1,0 74.4,40 Z" />
+</vector>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Launcher icon background: cream, so the owl and its blue cap stand out -->
+    <color name="launcher_background">#FFF6E7CB</color>
+</resources>

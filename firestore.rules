@@ -1,0 +1,22 @@
+rules_version = '2';
+
+// Paste this into Firebase console → Firestore Database → Rules.
+// Each user can only change their own document, and one write can add at most 500 points.
+// This limits cheating but cannot stop it completely without server-side checks.
+service cloud.firestore {
+  match /databases/{database}/documents {
+    match /users/{uid} {
+      // Any signed-in user can read the leaderboard
+      allow read: if request.auth != null;
+
+      allow create: if request.auth != null
+        && request.auth.uid == uid
+        && request.resource.data.total <= 500;
+
+      allow update: if request.auth != null
+        && request.auth.uid == uid
+        && request.resource.data.total >= resource.data.total
+        && request.resource.data.total - resource.data.total <= 500;
+    }
+  }
+}

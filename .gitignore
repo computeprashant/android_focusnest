@@ -1,0 +1,31 @@
+# Secrets: never commit these
+local.properties
+server/.env
+.env
+.env.*
+*.jks
+*.keystore
+key.properties
+*-adminsdk-*.json
+
+# Build output and IDE files
+build/
+.gradle/
+.kotlin/
+.idea/
+*.iml
+.cxx/
+.externalNativeBuild/
+captures/
+*.apk
+*.aab
+*.ap_
+*.hprof
+
+# Node (if a backend is added later)
+server/node_modules/
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
